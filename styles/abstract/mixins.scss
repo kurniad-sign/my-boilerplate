@@ -1,0 +1,13 @@
+@mixin text($size: null, $weight: null, $lineHeight: null) {
+  @if ($size != null) {
+    font-size: $size;
+  }
+
+  @if ($weight != null) {
+    font-weight: $weight;
+  }
+
+  @if ($lineHeight != null) {
+    line-height: $lineHeight;
+  }
+}
